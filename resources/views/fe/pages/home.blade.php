@@ -1,0 +1,1 @@
+@extends('fe.layouts.app')
