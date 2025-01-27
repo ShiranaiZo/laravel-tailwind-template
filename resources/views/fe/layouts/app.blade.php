@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home - Wibukoding</title>
 
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    @vite(['resources/scss/fe/app.scss', 'resources/js/fe/app.js'])
 
 </head>
 <body class="flex flex-col min-h-screen">

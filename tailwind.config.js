@@ -3,6 +3,7 @@ const colors = require('tailwindcss/colors');
 module.exports = {
     content: [
         "./resources/**/*.blade.php",
+        "./resources/views/be/components/**/*.blade.php",
         "./resources/**/*.js",
         "./resources/**/*.vue",
         "./node_modules/flowbite/**/*.js",
@@ -30,4 +31,7 @@ module.exports = {
     plugins: [
         require('flowbite/plugin')
     ],
+    safelist: [
+        'pb-4', 'mb-4', 'flex', 'md:hidden', 'border-b-2', 'border-gray-100'
+    ]
   }
