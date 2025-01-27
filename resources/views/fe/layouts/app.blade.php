@@ -12,7 +12,11 @@
 <body class="flex flex-col min-h-screen">
     @include('fe.layouts.navbar')
 
-    @yield('content')
+    <div class="w-full">
+        <div class="max-w-screen-xl mx-auto">
+            @yield('content')
+        </div>
+    </div>
 
     @include('fe.layouts.footer')
 </body>

@@ -13,3 +13,8 @@ function storage_url(?string $path): string
 
     return $disk->url($path);
 }
+
+function urlIsActive($url): string
+{
+    return request()->fullUrlIs($url) ? 'active' : '';
+}
